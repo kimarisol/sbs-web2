@@ -55,3 +55,63 @@ section.visual .mainTitle {
 section.visual .mainTitle h2 { font-size: 68px; letter-spacing: -3px; text-transform: uppercase; margin-bottom: 10px; }
 section.visual .mainTitle h2 span { font-size: 50px; color: #FF7777;}
 section.visual .mainTitle p { font-size: 19px; color: #f9f9f9;}
+
+
+section.problems .inner ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+section.problems .inner ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+section.problems .inner ul li .icon {
+    margin: 0 auto 20px;
+}
+
+section.problems .inner ul li h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* section.detail */
+section.detail {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #333;
+}
+section.detail .inner h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+section.detail .inner table {
+    width: 100%;
+    border-top: 1px solid #eee;
+}
+section.detail .inner table td {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    width: 350px;
+}
+section.detail .inner table td.tile {
+    background: #f9f9f9;
+    width: 175px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background: #99735f;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
