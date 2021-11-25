@@ -1,0 +1,76 @@
+@charset "UTF-8"
+
+/* 공통 */
+html { font-size: 100%; }
+
+body { font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif; }
+
+.title { font-family: 'Montagu Slab', serif; }
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* 큰 배경 이미지 */
+.big-bg {
+    background-size: cover;
+    background-position: center top;       /* 배경위치 : 수평(가운데) 수직(상단) */
+    background-repeat: no-repeat;
+}
+
+/* 제목 */
+.page-title {
+    font-size: 5rem;
+}
+
+/* 소제목 */
+.sub-title {
+    font-size: 1.4rem;
+    padding: 0 8px 8px;
+    border-bottom: solid cornflowerblue;
+    font-weight: normal;
+}
+
+/* 헤더 */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo { width: 210px; margin-top: 14px; }
+
+.main-nav { display: flex; font-size: 1.3rem; margin-top: 34px; }
+.main-nav li { margin-left: 36px; }
+.main-nav a { color: rosybrown; }
+.main-nav a:hover { color: saddlebrown; }
+
+/* blog */
+#blog {
+    background-image: url(../img/blog-bg.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+#blog .page-title {
+    text-align: center;
+}
+
+/* 컨텐츠 영역 */
+.blog-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* 글 영역 */
+article { width: 74%; }
+.post-info { position: relative; padding-top: 4px; margin-bottom: 40px; }
+.post-title { font-family: 'Hi Melody', cursive;}
+.post-date { font-size: 2rem; }
+
+
+
+
+aside { width: 23%; }
