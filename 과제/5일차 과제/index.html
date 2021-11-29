@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="wrap">
+
+        <!-- 공지 사항 -->
+        <section class="notice">
+
+            <!-- 타이틀 영역 -->
+            <div class="page-title">
+                <h3>공지사항</h3>
+            </div>
+
+            <!-- 검색 영역 -->
+            <div class="board-search">
+                <div class="search-inner">
+                    <form action="/board/writer" mothod="post">
+                        <input type="text" name="keyword" placeholder="검색어를 작성해주세요." id="search">
+                        <button class="btn">검색</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- 목록 영역 -->
+            <div class="board-list">
+
+                <table class="board-table">
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>제목</th>
+                            <th>등록일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <a href="#">[공지사항] 여러분 제발 만족도 평가 해주세요:)</a>
+                            </td>
+                            <td>2021.11.26</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                <a href="#">웹 3 과정도 기대해주세요!!!</a>
+                            </td>
+                            <td>2021.11.20</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                <a href="#">웹 포트폴리오 수업도 열심히 준비되고 있습니다!!!</a>
+                            </td>
+                            <td>2021.11.11</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        
+        </section>
+    
+    </div>
+</body>
+</html>

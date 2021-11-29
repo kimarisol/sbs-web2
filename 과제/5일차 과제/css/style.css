@@ -1,0 +1,35 @@
+
+* { margin: 0; padding: 0; }
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+
+section.notice {
+    padding: 80px 0;
+}
+/* 타이틀 */
+.page-title { margin-bottom: 60px; }
+.page-title h3 { font-size: 28px; color: #333333; font-weight: bold; text-align: center; }
+
+/* 검색 */
+.board-search { padding: 15px 0; }
+.board-search .search-inner { margin: 0 auto; width: 50%; }
+.board-search .search-inner input {
+    width: 70%;
+    height: 40px;
+    font-size: 14px;
+    padding: 7px 14px;
+    -webkit-column-break-before: 1px solid #ccc;
+}
+.board-search .search-inner .btn {
+    width: 80px;
+    height: 56px;
+    padding: 7px 14px;
+    font-size: 14px;
+}
+
+/* 목록 */
+.board-list {}
